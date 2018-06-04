@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "noStrictGenericChecks": true,
+      "allowJs": true,
+      "declaration": false,
+      "noResolve": false,
+      "jsx": "react",
+      "module": "commonjs",
+      "target": "esnext", 
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "noImplicitReturns": true,
+      "outDir": "./dist/",
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      //"types": [ "node" ],
+      "typeRoots": []
+    }
+}
+  
